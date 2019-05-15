@@ -55,47 +55,48 @@
             this.txtCity.Location = new System.Drawing.Point(136, 131);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(147, 20);
-            this.txtCity.TabIndex = 1;
+            this.txtCity.TabIndex = 2;
             // 
             // txtAddress
             // 
             this.txtAddress.Location = new System.Drawing.Point(136, 98);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(427, 20);
-            this.txtAddress.TabIndex = 2;
+            this.txtAddress.TabIndex = 1;
             // 
             // txtZip
             // 
             this.txtZip.Location = new System.Drawing.Point(464, 131);
             this.txtZip.Name = "txtZip";
             this.txtZip.Size = new System.Drawing.Size(99, 20);
-            this.txtZip.TabIndex = 3;
+            this.txtZip.TabIndex = 4;
             // 
             // txtState
             // 
             this.txtState.Location = new System.Drawing.Point(344, 131);
             this.txtState.Name = "txtState";
             this.txtState.Size = new System.Drawing.Size(55, 20);
-            this.txtState.TabIndex = 4;
+            this.txtState.TabIndex = 3;
             // 
             // btnDisplayOutput
             // 
             this.btnDisplayOutput.Location = new System.Drawing.Point(45, 180);
             this.btnDisplayOutput.Name = "btnDisplayOutput";
             this.btnDisplayOutput.Size = new System.Drawing.Size(123, 23);
-            this.btnDisplayOutput.TabIndex = 13;
+            this.btnDisplayOutput.TabIndex = 5;
             this.btnDisplayOutput.Text = "&Display\r\n";
             this.btnDisplayOutput.UseVisualStyleBackColor = true;
-            this.btnDisplayOutput.Click += new System.EventHandler(this.Button1_Click);
+            this.btnDisplayOutput.Click += new System.EventHandler(this.btnDisplayOutput_Click);
             // 
             // Exit
             // 
             this.Exit.Location = new System.Drawing.Point(440, 180);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(123, 23);
-            this.Exit.TabIndex = 14;
+            this.Exit.TabIndex = 6;
             this.Exit.Text = "E&xit";
             this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // label1
             // 

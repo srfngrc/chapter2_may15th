@@ -22,9 +22,14 @@ namespace WindowsFormsChap2may15th
 
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void btnDisplayOutput_Click(object sender, EventArgs e)
         {
-
+            String buffer;
+            buffer = "Mailing Label:" + Environment.NewLine + Environment.NewLine;
+            buffer = buffer + "      Name: " + txtName.Text + Environment.NewLine;
+            buffer = buffer + "Address: " + txtAddress.Text + Environment.NewLine;
+            buffer = buffer + "      City: " + txtCity.Text + "   State:  " + txtState.Text + "   Zip:" + txtZip.Text;
+            txtDisplayOutput.Text = buffer;
         }
 
         private void Label1_Click_1(object sender, EventArgs e)
@@ -33,6 +38,11 @@ namespace WindowsFormsChap2may15th
         }
 
         private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
         {
 
         }
